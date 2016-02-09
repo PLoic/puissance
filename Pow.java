@@ -1,5 +1,5 @@
 public class Pow {
-    
+
     /**
      * Complexité en o(n)
      */
@@ -13,7 +13,7 @@ public class Pow {
         }
         return returnVal;
     }
-    
+
     /**
      * Complexité en o(log(n))
      */
@@ -28,7 +28,6 @@ public class Pow {
             return temp * temp;
         }
         return a * temp * temp;
-        
     }
 
     public static void main (String[] args) {
