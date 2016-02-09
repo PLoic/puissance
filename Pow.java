@@ -19,7 +19,7 @@ public class Pow {
      */
     public static int pow2 (int a, int n) {
         int temp;
-        if (y == 0) {
+        if (n == 0) {
             return 1;
         }
 
